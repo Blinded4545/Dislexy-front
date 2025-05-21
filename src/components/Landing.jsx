@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 export default function LandingPage() {
-  const url="http://localhost:5173/app.exe"
+  const url="https://blinded4545.github.io/Dislexy-front/app.exe"
   const fileName="app.exe"
   const downloadFile=()=>{
     const aTag=document.createElement("a")
