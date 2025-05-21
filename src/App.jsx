@@ -1,6 +1,6 @@
 
 
-import LandingPage from './components/LandingGPT';
+import LandingPage from './components/Landing';
 
 function App() {
   return (
