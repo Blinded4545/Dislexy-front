@@ -21,18 +21,18 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-  <Route path="/" element={<App />} />
-  <Route path="/seleccionar" element={<SeleccionarVersion />} />
-  <Route path="/premium" element={<PremiumAccess />} />
-  <Route path="/juego-crucigrama" element={<Crucigrama />} />
-  <Route path="/juego-memory" element={<MemoryVisual />} />
-  <Route path="/juego-ahorcado" element={<Ahorcado />} />
-  <Route path="/juego-asociacion" element={<AsociacionVisual />} />
-  <Route path="/jugar1" element={<Jugar1 />} />
-  <Route path="/jugar2" element={<Jugar2 />} />
-  <Route path="/jugar3" element={<Jugar3 />} />
-  <Route path="/jugar4" element={<Jugar4 />} />
-  <Route path="/final" element={<PantallaFinal />} />
+        <Route path="/Dislexy-front" element={<App />} />
+        <Route path="/seleccionar" element={<SeleccionarVersion />} />
+        <Route path="/premium" element={<PremiumAccess />} />
+        <Route path="/juego-crucigrama" element={<Crucigrama />} />
+        <Route path="/juego-memory" element={<MemoryVisual />} />
+        <Route path="/juego-ahorcado" element={<Ahorcado />} />
+        <Route path="/juego-asociacion" element={<AsociacionVisual />} />
+        <Route path="/jugar1" element={<Jugar1 />} />
+        <Route path="/jugar2" element={<Jugar2 />} />
+        <Route path="/jugar3" element={<Jugar3 />} />
+        <Route path="/jugar4" element={<Jugar4 />} />
+        <Route path="/final" element={<PantallaFinal />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
