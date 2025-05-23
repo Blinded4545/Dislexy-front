@@ -20,7 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="" element={<App />} />
         <Route path="/seleccionar" element={<SeleccionarVersion />} />
         <Route path="/premium" element={<PremiumAccess />} />
         <Route path="/juego-crucigrama" element={<Crucigrama />} />
